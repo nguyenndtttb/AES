@@ -12,3 +12,6 @@ encryptFun() {
     var decrypted = CryptoJS.AES.decrypt(encrypted,key,{iv:iv,padding:CryptoJS.pad.ZeroPadding});
     console.log('decrypted: '+decrypted.toString(CryptoJS.enc.Utf8));
   }
+
+123
+1455
